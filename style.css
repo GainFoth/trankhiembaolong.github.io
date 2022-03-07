@@ -25,11 +25,11 @@ main {
 
 body {
 	margin: 0;
-	--color-text: #d05400;
-    --color-bg: #0c0c0c;
+	--color-text: #ff89ce;
+    --color-bg: #ffffff;
     --color-link: #6b5537;
 	--color-link-hover: #fff;
-	--color-content-title-sub: #6b5537;
+	--color-content-title-sub: #ffffff;
     color: var(--color-text);
     background-color: var(--color-bg);
     --cursor-stroke: #6b5537;
@@ -40,11 +40,15 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+h2 {
+	text-shadow: 4px 0 0 rgb(0, 0, 0), -2px 0 0 rgb(0, 0, 0), 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+  }
+
 .demo-2 {
-	--color-text: #000000;
-    --color-bg: #832f05;
+	--color-text: #ffffff;
+    --color-bg: #ffffff;
     --color-link: #ffffff;
-    --color-link-hover: #000;
+    --color-link-hover: rgb(255, 255, 255);
     --color-content-title-sub: #ec9e34;
     --cursor-stroke: #000000;
     --cursor-fill: none;
@@ -53,7 +57,7 @@ body {
 
 .demo-3 {
 	--color-text: #239c34;
-    --color-bg: #000000;
+    --color-bg: #ffffff;
     --color-link: #ffffff;
     --color-link-hover: #ccc;
     --color-content-title-sub: #ffffff;
@@ -270,7 +274,7 @@ a:focus {
 	font-size: 4vw;
 	display: block;
 	margin-left: 3vw;
-	line-height: 0.5;
+	line-height: 1.5;
 }
 
 .cursor {
